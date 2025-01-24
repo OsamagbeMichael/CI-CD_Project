@@ -1,0 +1,16 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore the .terraform directory, which contains provider plugins and other temporary files
+.terraform/
+
+# Ignore any crash logs created by Terraform
+crash.log
+
+# Ignore plan output files (if you save plans with `terraform plan -out`)
+*.tfplan
+
+# Ignore variable files containing sensitive information (e.g., AWS credentials)
+*.tfvars
+*.tfvars.json
