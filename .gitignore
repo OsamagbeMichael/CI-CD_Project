@@ -14,4 +14,6 @@ crash.log
 # Ignore variable files containing sensitive information (e.g., AWS credentials)
 *.tfvars
 *.tfvars.json
-.env.env
+.env
+.terraform.lock.hcl
+.env
