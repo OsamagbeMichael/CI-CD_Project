@@ -1,5 +1,5 @@
-provider "aws"{
-    region = "ca-central-1"
+provider "aws" {
+  region = "ca-central-1"
 }
 
 terraform {
@@ -11,12 +11,12 @@ terraform {
   }
 }
 
-resource "aws_s3_bucket" "ci_cd_bucket" {
-    bucket = var.ci_cd_project
-    acl = "private"
+resource "aws_s3_bucket" "ci-cd-bucket" {
+  bucket = var.ci-cd-project
+  acl    = "private"
 
-    tags = {
-    Name = var.ci_cd_project
-    Environmen = "Dev"
-}
+  tags = {
+    Name        = var.ci-cd-project
+    Environment = "Dev"
+  }
 }

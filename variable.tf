@@ -1,6 +1,6 @@
-variable "ci_cd_project" {
-    description  = "ci_cd_project"
-    type = string
-    default = "ci_cd_project"                   
+variable "ci-cd-project" {
+  description = "ci_cd_project"
+  type        = string
+  default     = "ci-cd-project"
 
 }
