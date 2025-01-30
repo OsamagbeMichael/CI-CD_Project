@@ -1,11 +1,11 @@
 terraform {
 
-    backend "s3" {
-        bucket = "myteraformstatew"
-        key = "prod/terraform.tfstate"
-        region = "ca-central-1"
+  backend "s3" {
+    bucket = "myteraformstatew"
+    key    = "terraform/state.tfstate"
+    region = "ca-central-1"
 
-    }
+  }
 
-    
+
 }
